@@ -1,9 +1,8 @@
+import TicketForm from "@/app/(componends)/TicketForm"
 
 const TicketPage = ({ params }: string | number | any) => {
   return (
-    <div>
-      TicketPage {params.id}
-    </div>
+    <TicketForm />
   )
 }
 
